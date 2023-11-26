@@ -1,6 +1,18 @@
 body {
   font-family: Roboto Condensed;
 }
+
+div.header {
+  margin-left: 10px;
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  height: 2000px;
+  flex-wrap: wrap;
+  width: 100vw;
+}
 div.gallery {
   border: 5px solid #ffe100;
   display: flex;
@@ -12,7 +24,7 @@ div.gallery {
 }
 
 a {
-  height: 290px;
+  height: auto;
   display: flex;
   align-items: center;
 }
@@ -37,14 +49,14 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 30px;
+  padding: 0 20px;
   float: left;
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 900px) {
-  a {
-    height: 200px;
+@media only screen and (max-width: 1000px) {
+  div.container {
+    height: 1500px;
   }
 }
 
@@ -53,8 +65,8 @@ div.desc {
     width: 49.99999%;
     margin: 6px 0;
   }
-  a {
-    height: 350px;
+  div.container {
+    height: 4000px;
   }
 }
 
@@ -63,13 +75,13 @@ div.desc {
     width: 100%;
     margin-bottom: 20px;
   }
-  a {
-    height: 500px;
+  div.container {
+    height: auto;
   }
 }
 
-.clearfix:after {
+/* .clearfix:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
