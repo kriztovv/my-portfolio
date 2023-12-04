@@ -1,5 +1,6 @@
 body {
   font-family: Roboto Condensed;
+  margin: 0;
 }
 
 a,
@@ -16,27 +17,9 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* justify-content: right; */
-  /* text-align: right; */
 }
-
-h1 {
-  /* margin-left: 20px; */
-}
-
-div.box {
-  width: auto;
-}
-
 i.material-icons {
   font-size: 36px;
-}
-
-div.icons {
-  /* margin-left: 60%; */
-  /* text-align: right; */
-  display: flex;
-  justify-content: right;
 }
 
 div.container {
@@ -56,7 +39,7 @@ div.gallery {
   border-radius: 20px;
 }
 
-a {
+div.container a {
   height: auto;
   display: flex;
   align-items: center;

@@ -1,5 +1,6 @@
 body {
   font-family: Roboto Condensed;
+  margin: 0;
 }
 
 a,
@@ -16,8 +17,6 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* justify-content: right; */
-  /* text-align: right; */
 }
 i.material-icons {
   font-size: 36px;
