@@ -72,13 +72,14 @@ div.desc {
 
 @media only screen and (max-width: 1000px) {
   div.container {
-    height: 1500px;
+    /* height: 1500px;*/
+    height: 200vw;
   }
 }
 
 @media only screen and (max-width: 700px) {
   .responsive {
-    width: 49.99999%;
+    width: 49.99999vw;
     margin: 6px 0;
   }
   div.container {
@@ -92,7 +93,19 @@ div.desc {
     margin-bottom: 20px;} */
 
   div.container {
-    height: 2800px;
+    /* height: 3200px; */
+    height: 680vw;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  /* .responsive {
+    width: 100%;
+    margin-bottom: 20px;} */
+
+  div.container {
+    /* height: 3200px; */
+    height: 800vw;
   }
 }
 
@@ -101,3 +114,16 @@ div.desc {
   display: table;
   clear: both;
 } */
+@media only screen and (max-width: 500px) {
+  img {
+    width: 75%;
+  }
+  i.material-icons {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header {
+    flex-direction: column;
+  }
+}
