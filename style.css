@@ -27,7 +27,7 @@ div.container {
   flex-direction: column;
   height: 2000px;
   flex-wrap: wrap;
-  width: 100%;
+  width: 100vw;
 }
 div.gallery {
   border: 5px solid #ffe100;
@@ -72,8 +72,8 @@ div.desc {
 
 @media only screen and (max-width: 1000px) {
   div.container {
-    /* height: 1500px;*/
-    height: 200vw;
+    height: 1600px;
+    /* height: 200vw; */
   }
 }
 
