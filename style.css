@@ -25,16 +25,16 @@ i.material-icons {
 div.container {
   display: flex;
   flex-direction: column;
-  height: 2000px;
+  height: 145vw;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 100%;
 }
 div.gallery {
   border: 5px solid #ffe100;
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  margin-bottom: 50px;
+  /* margin-bottom: 5vw; */
   background-color: #ffe100;
   border-radius: 20px;
 }
@@ -56,7 +56,9 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  /* padding: 15px; */
+  padding: 1vw;
+  font-size: 2vw;
   text-align: center;
 }
 
@@ -65,55 +67,34 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 20px;
+  padding: 2.5vw;
   float: left;
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 2500px) {
   div.container {
-    height: 1600px;
-    /* height: 200vw; */
+    height: 3400px;
   }
-}
+} */
 
 @media only screen and (max-width: 700px) {
   .responsive {
-    width: 49.99999vw;
-    margin: 6px 0;
+    width: 48vw;
+    /* margin: 6px 0; */
+    padding: 2.5vw;
   }
   div.container {
-    height: 4000px;
+    height: 490vw;
+  }
+  /* .gallery {
+    margin-bottom: 5px;
+  } */
+  div.desc {
+    font-size: 4vw;
   }
 }
 
-@media only screen and (max-width: 500px) {
-  /* .responsive {
-    width: 100%;
-    margin-bottom: 20px;} */
-
-  div.container {
-    /* height: 3200px; */
-    height: 680vw;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  /* .responsive {
-    width: 100%;
-    margin-bottom: 20px;} */
-
-  div.container {
-    /* height: 3200px; */
-    height: 800vw;
-  }
-}
-
-/* .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
 @media only screen and (max-width: 500px) {
   img {
     width: 75%;
